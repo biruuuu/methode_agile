@@ -28,7 +28,7 @@ bin/
 
 ### intelliJ ###
 
-.idea/
+.idea/*
 
 
 
