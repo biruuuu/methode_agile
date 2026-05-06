@@ -31,6 +31,10 @@ bin/
 .idea/*
 
 
+### JSP CE QUE C'EST FRR ###
+.ia/*
+
+
 
 ### Mac OS ###
 .DS_Store
