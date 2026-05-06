@@ -3,6 +3,7 @@ out/
 !**/src/main/**/out/
 !**/src/test/**/out/
 .kotlin
+.idea/
 
 ### Eclipse ###
 .apt_generated
@@ -26,15 +27,8 @@ bin/
 ### VS Code ###
 .vscode/
 
-### intelliJ ###
-
-.idea/*
-
-
 ### JSP CE QUE C'EST FRR ###
-.ai/*
-
-
+.ai/
 
 ### Mac OS ###
 .DS_Store
