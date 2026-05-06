@@ -5,8 +5,8 @@ public class Client extends Compte {
 
     private ArrayList<Exemplaire> emprunts; 
 
-    public Client(String nom, String prenom, String mail, String telephone, Date date, String mdp ){
-        super(nom, prenom, mail, telephone, date, mdp); 
+    public Client(String nom, String prenom, String mail, String telephone, Date date ){
+        super(nom, prenom, mail, telephone, date); 
         this.emprunts = new ArrayList<Exemplaire>(); 
     }
 
