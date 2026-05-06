@@ -8,15 +8,17 @@ public class Compte {
     private String telephone;
     private int id; 
     private Date date; 
+    private String mdp; 
     private static int incr = 1; 
 
-    public Compte(String nom, String prenom, String mail, String telephone, Date date){
+    public Compte(String nom, String prenom, String mail, String telephone, Date date, String mdp){
         this.nom = nom; 
         this.prenom = prenom; 
         this.mail = mail; 
         this.telephone = telephone; 
         this.id = incr++; 
         this.date = date; 
+        this.mdp = mdp; 
 
 
     }
@@ -37,6 +39,10 @@ public class Compte {
         this.telephone = telephone;
     }
 
+    public void setMdp(){
+        this.mdp = mdp; 
+    }
+
     public String getNom(){
         return nom + prenom; 
     }
@@ -51,6 +57,10 @@ public class Compte {
 
     public int getId(){
         return id; 
+    }
+
+    public String getMdp(){
+        return mdp; 
     }
 
 
