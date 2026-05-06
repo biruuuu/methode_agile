@@ -6,7 +6,8 @@
   <component name="ChangeListManager">
     <list default="true" id="72db556c-7f97-43cb-8cba-14034d11c444" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Livre.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Livre.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Exemplaire.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Exemplaire.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -61,8 +62,8 @@
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
     "project.structure.last.edited": "Modules",
-    "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.0",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2",
     "to.speed.mode.migration.done": "true",
     "vue.rearranger.settings.migration": "true"
   }
@@ -75,7 +76,7 @@
       <option name="presentableId" value="Default" />
       <updated>1778069921940</updated>
       <workItem from="1778069923446" duration="557000" />
-      <workItem from="1778072399681" duration="1329000" />
+      <workItem from="1778072399681" duration="3965000" />
     </task>
     <servers />
   </component>
