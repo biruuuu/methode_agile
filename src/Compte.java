@@ -1,14 +1,13 @@
 import java.sql.Date;
-import java.time.LocalDate;
 
 public class Compte {
-    private String nom; 
-    private String prenom; 
-    private String mail; 
-    private String telephone;
-    private int id; 
-    private Date date; 
-    private static int incr = 1; 
+    protected String nom; 
+    protected String prenom; 
+    protected String mail; 
+    protected String telephone;
+    protected int id; 
+    protected Date date; 
+    protected static int incr = 1; 
 
     public Compte(String nom, String prenom, String mail, String telephone, Date date){
         this.nom = nom; 
