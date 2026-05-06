@@ -26,5 +26,15 @@ bin/
 ### VS Code ###
 .vscode/
 
+### intelliJ ###
+
+.idea/*
+
+
+### JSP CE QUE C'EST FRR ###
+.ai/*
+
+
+
 ### Mac OS ###
 .DS_Store
