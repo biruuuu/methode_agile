@@ -7,7 +7,6 @@
     <list default="true" id="72db556c-7f97-43cb-8cba-14034d11c444" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Exemplaire.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Exemplaire.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -51,7 +50,7 @@
     "RunOnceActivity.typescript.service.memoryLimit.init": "true",
     "codeWithMe.voiceChat.enabledByDefault": "false",
     "com.intellij.ml.llm.matterhorn.ej.ui.settings.DefaultModelSelectionForGA.v1": "true",
-    "git-widget-placeholder": "main",
+    "git-widget-placeholder": "Exemplaire",
     "ignore.virus.scanning.warn.message": "true",
     "junie.onboarding.icon.badge.shown": "true",
     "kotlin-language-version-configured": "true",
@@ -76,7 +75,7 @@
       <option name="presentableId" value="Default" />
       <updated>1778069921940</updated>
       <workItem from="1778069923446" duration="557000" />
-      <workItem from="1778072399681" duration="3965000" />
+      <workItem from="1778072399681" duration="5159000" />
     </task>
     <servers />
   </component>
