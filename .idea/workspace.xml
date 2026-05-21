@@ -6,6 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="72db556c-7f97-43cb-8cba-14034d11c444" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/Database.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/Database.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/JSONBuilder.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/JSONBuilder.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -36,6 +37,65 @@
   <component name="McpProjectServerCommands">
     <commands />
     <urls />
+  </component>
+  <component name="NextEditCompletionFeaturesState">
+    <decayedCancelled>
+      <entry key="MS100" value="1.0001220703954792" />
+      <entry key="MS500" value="1.1770218507472716" />
+      <entry key="S2" value="2.1730739105772714" />
+      <entry key="S5" value="3.011980247233254" />
+      <entry key="S10" value="3.4673210261605374" />
+      <entry key="S30" value="5.530311725936294" />
+      <entry key="S60" value="11.077621281382793" />
+      <entry key="M2" value="22.841399226676945" />
+      <entry key="M5" value="47.3481671366328" />
+      <entry key="M10" value="66.6019620019835" />
+      <entry key="M15" value="75.92727221596469" />
+      <entry key="M30" value="87.48011960282416" />
+      <entry key="H1" value="94.31266515076865" />
+      <entry key="H2" value="98.0413275117546" />
+      <entry key="H4" value="99.99081500252063" />
+      <entry key="D1" value="101.66089313450566" />
+      <entry key="W1" value="101.95145096673984" />
+    </decayedCancelled>
+    <decayedSelected>
+      <entry key="MS100" value="1.0892471640094587E-204" />
+      <entry key="MS500" value="1.6122289040699258E-41" />
+      <entry key="S2" value="6.698960428426741E-11" />
+      <entry key="S5" value="1.3567379826215302E-4" />
+      <entry key="S10" value="0.025656319827352725" />
+      <entry key="S30" value="1.1519462155749007" />
+      <entry key="S60" value="3.486606280796987" />
+      <entry key="M2" value="7.597970722004912" />
+      <entry key="M5" value="15.947322363242606" />
+      <entry key="M10" value="22.08851602773707" />
+      <entry key="M15" value="24.86854806967972" />
+      <entry key="M30" value="28.139493713650644" />
+      <entry key="H1" value="29.989118514965064" />
+      <entry key="H2" value="30.973460811451375" />
+      <entry key="H4" value="31.48133310331228" />
+      <entry key="D1" value="31.91279523582047" />
+      <entry key="W1" value="31.98752341679198" />
+    </decayedSelected>
+    <decayedShown>
+      <entry key="MS100" value="0.7526265814711184" />
+      <entry key="MS500" value="1.0284781855871046" />
+      <entry key="S2" value="1.9272169479794132" />
+      <entry key="S5" value="2.828863786261112" />
+      <entry key="S10" value="3.374754597987876" />
+      <entry key="S30" value="6.566117522625292" />
+      <entry key="S60" value="14.410380939252095" />
+      <entry key="M2" value="30.269734768619777" />
+      <entry key="M5" value="63.153824651995784" />
+      <entry key="M10" value="88.59215077667587" />
+      <entry key="M15" value="100.72173907044514" />
+      <entry key="M30" value="115.57743649342744" />
+      <entry key="H1" value="124.2792120221682" />
+      <entry key="H2" value="129.00310299956115" />
+      <entry key="H4" value="131.46620171068017" />
+      <entry key="D1" value="133.57268255608508" />
+      <entry key="W1" value="133.93883033005758" />
+    </decayedShown>
   </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 1,
