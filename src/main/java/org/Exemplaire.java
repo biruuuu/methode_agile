@@ -1,4 +1,4 @@
-package main.java.org;
+package org;
 
 public class Exemplaire {
     private static int incr = 1;

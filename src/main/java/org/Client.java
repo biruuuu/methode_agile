@@ -1,4 +1,4 @@
-package main.java.org;
+package org;
 
 import java.sql.Date;
 import java.util.ArrayList;
