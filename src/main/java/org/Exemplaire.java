@@ -29,4 +29,13 @@ public class Exemplaire {
     public void setDisponibilite(boolean estDisponible) {
         this.disponibilite = estDisponible;
     }
+
+    @Override
+    public String toString() {
+        return "Exemplaire{" +
+                "id=" + id +
+                ", livre=" + livre +
+                ", disponibilite=" + disponibilite +
+                '}';
+    }
 }

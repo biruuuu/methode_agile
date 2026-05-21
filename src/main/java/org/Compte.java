@@ -76,4 +76,16 @@ public class Compte {
     }
 
 
+    @Override
+    public String toString() {
+        return "Compte{" +
+                "nom='" + nom + '\'' +
+                ", prenom='" + prenom + '\'' +
+                ", mail='" + mail + '\'' +
+                ", telephone='" + telephone + '\'' +
+                ", id=" + id +
+                ", date=" + date +
+                ", mdp='" + mdp + '\'' +
+                '}';
+    }
 }

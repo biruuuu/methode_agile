@@ -60,4 +60,16 @@ public class Livre {
     public int getNbPages() {
         return nbPages;
     }
+
+    @Override
+    public String toString() {
+        return "Livre{" +
+                "titre='" + titre + '\'' +
+                ", genre='" + genre + '\'' +
+                ", auteur='" + auteur + '\'' +
+                ", editeur='" + editeur + '\'' +
+                ", isbn=" + isbn +
+                ", nbPages=" + nbPages +
+                '}';
+    }
 }

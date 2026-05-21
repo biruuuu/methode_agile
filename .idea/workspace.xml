@@ -6,16 +6,18 @@
   <component name="ChangeListManager">
     <list default="true" id="72db556c-7f97-43cb-8cba-14034d11c444" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/Bibliotheque.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/Bibliotheque.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/Client.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/Client.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/Compte.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/Compte.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/Database.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/Database.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/Emprunt.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/Emprunt.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/Exemplaire.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/Exemplaire.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/Gestionnaire.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/Gestionnaire.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/JSONBuilder.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/JSONBuilder.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/Livre.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/Livre.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/org/Compte.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/Compte.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/Database.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/Database.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/org/Emprunt.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/Emprunt.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/org/Exemplaire.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/Exemplaire.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/JSONBuilder.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/JSONBuilder.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/Livre.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/Livre.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />

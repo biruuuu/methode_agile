@@ -3,10 +3,10 @@ package org;
 import java.util.ArrayList;
 
 public class Database {
-    ArrayList<Livre> livres;
-    ArrayList<Exemplaire> exemplaires;
-    ArrayList<Compte> comptes;
-    ArrayList<Emprunt> emprunts;
+    public ArrayList<Livre> livres;
+    public ArrayList<Exemplaire> exemplaires;
+    public ArrayList<Compte> comptes;
+    public ArrayList<Emprunt> emprunts;
 
     public ArrayList<Livre> getLivres() {
         return livres;
@@ -38,5 +38,15 @@ public class Database {
 
     public void setEmprunts(ArrayList<Emprunt> emprunts) {
         this.emprunts = emprunts;
+    }
+
+    @Override
+    public String toString() {
+        return "Database{" +
+                "livres=" + livres.toString() +
+                ", exemplaires=" + exemplaires.toString() +
+                ", comptes=" + comptes.toString() +
+                ", emprunts=" + emprunts.toString() +
+                '}';
     }
 }

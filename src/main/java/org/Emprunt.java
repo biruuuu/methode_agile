@@ -27,13 +27,6 @@ public class Emprunt {
         return client;
     }
 
-    @Override
-    public String toString() {
-        return "org.Emprunt : " + exemplaire.getLivre().getTitre() +
-               " par " + client.getNom() + 
-               " (Retour prévu le : " + dateRetourPrevue + ")";
-    }
-
     public void setClient(Client client) {
         this.client = client;
     }
@@ -56,5 +49,15 @@ public class Emprunt {
 
     public void setDateRetourPrevue(Date dateRetourPrevue) {
         this.dateRetourPrevue = dateRetourPrevue;
+    }
+
+    @Override
+    public String toString() {
+        return "Emprunt{" +
+                "client=" + client +
+                ", exemplaire=" + exemplaire +
+                ", dateEmprunt=" + dateEmprunt +
+                ", dateRetourPrevue=" + dateRetourPrevue +
+                '}';
     }
 }
