@@ -1,0 +1,64 @@
+{
+  "livres": [
+    {
+      "titre": "Le Petit Prince",
+      "genre": "Conte",
+      "auteur": "Antoine de Saint-Exupéry",
+      "editeur": "Gallimard",
+      "isbn": 123456789,
+      "nbPages": 96
+    }
+  ],
+  "exemplaires": [
+    {
+      "id": 1,
+      "livre": {
+        "titre": "Le Petit Prince",
+        "genre": "Conte",
+        "auteur": "Antoine de Saint-Exupéry",
+        "editeur": "Gallimard",
+        "isbn": 123456789,
+        "nbPages": 96
+      },
+      "disponibilite": false
+    }
+  ],
+  "comptes": [
+    {
+      "id": 1,
+      "nom": "Dupont",
+      "prenom": "Jean",
+      "mail": "jean.dupont@email.com",
+      "telephone": "0601020304",
+      "date": "2026-05-21",
+      "mdp": "1234"
+    }
+  ],
+  "emprunts": [
+    {
+      "client": {
+        "id": 1,
+        "nom": "Dupont",
+        "prenom": "Jean",
+        "mail": "jean.dupont@email.com",
+        "telephone": "0601020304",
+        "date": "2026-05-21",
+        "mdp": "1234"
+      },
+      "exemplaire": {
+        "id": 1,
+        "livre": {
+          "titre": "Le Petit Prince",
+          "genre": "Conte",
+          "auteur": "Antoine de Saint-Exupéry",
+          "editeur": "Gallimard",
+          "isbn": 123456789,
+          "nbPages": 96
+        },
+        "disponibilite": false
+      },
+      "dateEmprunt": "2026-05-21",
+      "dateRetourPrevue": "2026-06-04"
+    }
+  ]
+}
