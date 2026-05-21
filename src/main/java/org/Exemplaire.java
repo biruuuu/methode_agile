@@ -1,3 +1,5 @@
+package org;
+
 public class Exemplaire {
     private static int incr = 1;
     private int id;

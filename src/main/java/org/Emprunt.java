@@ -1,3 +1,5 @@
+package org;
+
 import java.sql.Date;
 import java.time.LocalDate;
 
@@ -24,7 +26,7 @@ public class Emprunt {
 
     @Override
     public String toString() {
-        return "Emprunt : " + exemplaire.getLivre().getTitre() + 
+        return "org.Emprunt : " + exemplaire.getLivre().getTitre() +
                " par " + client.getNom() + 
                " (Retour prévu le : " + dateRetourPrevue + ")";
     }
