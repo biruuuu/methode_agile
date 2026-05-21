@@ -1,4 +1,4 @@
-package main.java.org;
+package org;
 
 import java.sql.Date;
 
@@ -10,7 +10,10 @@ public class Compte {
     protected int id; 
     protected Date date; 
     protected String mdp; 
-    protected static int incr = 1; 
+    protected static int incr = 1;
+
+    public Compte() {
+    }
 
     public Compte(String nom, String prenom, String mail, String telephone, Date date){
         this.nom = nom; 
@@ -38,6 +41,14 @@ public class Compte {
 
     public void setTelephone(String telephone){
         this.telephone = telephone;
+    }
+
+    public Date getDate() {
+        return this.date;
+    }
+
+    public void setDate(java.sql.Date date) {
+        this.date = date;
     }
 
     public void setMdp(){

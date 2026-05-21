@@ -1,4 +1,4 @@
-package main.java.org;
+package org;
 
 import java.sql.Date;
 import java.time.LocalDate;
@@ -8,6 +8,9 @@ public class Emprunt {
     private Exemplaire exemplaire;
     private Date dateEmprunt;
     private Date dateRetourPrevue;
+
+    public Emprunt() {
+    }
 
     public Emprunt(Client client, Exemplaire exemplaire) {
         this.client = client;
@@ -29,5 +32,29 @@ public class Emprunt {
         return "org.Emprunt : " + exemplaire.getLivre().getTitre() +
                " par " + client.getNom() + 
                " (Retour prévu le : " + dateRetourPrevue + ")";
+    }
+
+    public void setClient(Client client) {
+        this.client = client;
+    }
+
+    public void setExemplaire(Exemplaire exemplaire) {
+        this.exemplaire = exemplaire;
+    }
+
+    public Date getDateEmprunt() {
+        return dateEmprunt;
+    }
+
+    public void setDateEmprunt(Date dateEmprunt) {
+        this.dateEmprunt = dateEmprunt;
+    }
+
+    public Date getDateRetourPrevue() {
+        return dateRetourPrevue;
+    }
+
+    public void setDateRetourPrevue(Date dateRetourPrevue) {
+        this.dateRetourPrevue = dateRetourPrevue;
     }
 }

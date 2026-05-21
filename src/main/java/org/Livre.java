@@ -1,4 +1,4 @@
-package main.java.org;
+package org;
 
 import java.util.Objects;
 
@@ -9,6 +9,9 @@ public class Livre {
     private String editeur;
     private int isbn;
     private int nbPages;
+
+    public Livre() {
+    }
 
     public Livre(String titre, String genre, String auteur, String editeur, int isbn, int nbPages) {
         this.titre = titre;
