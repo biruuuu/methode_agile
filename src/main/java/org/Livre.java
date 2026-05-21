@@ -1,4 +1,4 @@
-package org;
+package main.java.org;
 
 import java.util.Objects;
 
