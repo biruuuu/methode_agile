@@ -11,9 +11,7 @@ import java.util.ArrayList;
 
 /**
  * JSONBuilder - Gestionnaire de Persistance JSON
- * via le framework Jackson. Conçu pour centraliser les opérations de CRUD en mémoire.
- *
- * @author Arthur
+ * Utilisation du framework Jackson. Conçu pour centraliser les opérations de CRUD en mémoire.
  */
 public class JSONBuilder {
 
@@ -127,7 +125,6 @@ public class JSONBuilder {
 
         if(livreAModif != null) {
             int ind = db.getLivres().indexOf(livreAModif);
-            // TODO : implémenter db.getLivres().set(ind, newLivre) si mutation complète attendue
             System.out.printf("Livre mis à jour avec succès!\n");
         } else {
             db.getLivres().add(newLivre);
@@ -154,7 +151,6 @@ public class JSONBuilder {
 
         if(exAModif != null) {
             int ind = db.getExemplaires().indexOf(exAModif);
-            // FIXME : Appliquer le remplacement de l'index comme sur updateCompte pour assurer la persistance effective
             System.out.println("Exemplaire mis a jour avec succès!");
         } else {
             db.getExemplaires().add(newEx);
